@@ -1,0 +1,18 @@
+.footer{
+    height: 45vh;
+    margin-top: 30px;
+    color:aliceblue
+}
+.footer >div{
+    height:4px;
+    background-color: rgb(72, 68, 68);
+
+}
+.footer h3{
+    /* border:1px solid wheat; */
+    text-align: end;
+    margin-right: 40px;
+    position: relative;
+    top: 250px;
+
+}

@@ -1,0 +1,60 @@
+.fade{
+    height:4px;
+    width:100%;
+    background-color: rgb(72, 68, 68);
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+.about_div{
+    color:white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(37, 35, 35); */
+
+}
+.details{
+    /* border:1px solid white; */
+    width:65%;
+    /* padding: 20px; */
+    cursor: pointer;
+    margin-bottom: 8px;
+    /* transition: all 0.6s; */
+    /* transition-timing-function: ease-in; */
+    
+}
+
+.summary{
+    font-size: 25px;
+    background-color: rgb(72, 68, 68);
+    list-style: none;
+    height: 70px;
+    /* margin: 2px auto; */
+    padding: 15px 30px 0;
+    box-sizing: border-box;
+    /* transition-timing-function: ease-in; */
+    /* overflow: scroll; */
+    
+}
+.para{
+    /* transition: margin 2s; */
+    /* background-color: black; */
+    margin-top: 2px;
+    background-color: rgb(87, 83, 83);
+    padding: 20px 25px;
+    /* transition: all 0.6s; */
+    /* transition-timing-function: ease-in; */
+}
+
+/* .details[open] .para{
+    margin-bottom: 10px;
+} */
+
+@media screen and (max-width : 420px){
+    .summary{
+        font-size: 17px;
+    }
+}
